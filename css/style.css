@@ -1,21 +1,49 @@
+.body {
+  height: 100%;
+  width: 100%;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home {
+  width: 100%;
+}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
+
+.centerr {
+  padding-left: 3cm;
+  font-style: italic;
+  font-size: 60px;
+}
+
 .card {
+  width: 8cm;
+  height: 11cm;
+  align-items: center;
+  align-content: center;
+
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 3cm;
-  height: 2cm;
+
   text: size adjust 2px;
   background-color: rgb(255, 245, 233);
 }
 
 .footer {
   text-align: center;
-  padding: 3px;
+  padding: 2px;
+  height: 4cm;
   background-color: rgb(255, 245, 233);
   color: white;
 }
@@ -121,5 +149,12 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .centerr {
+    text-align: center;
+    font-size: 40;
   }
 }
